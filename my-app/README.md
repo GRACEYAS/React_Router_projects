@@ -1,18 +1,11 @@
-# React + Vite
+This project is a simple e-commerce web application developed using React JS. The main idea of this application is to create a shopping website similar to platforms like Flipkart or AJIO, where users can browse products, view detailed information, and manage their cart.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In this application, products are fetched from an API and displayed on the home page in a clean and user-friendly layout. Each product shows basic details such as image, title, short description, and price. When a user clicks on any product, they are navigated to a product details page where they can see complete information including the full description, product ID, and price.
 
-Currently, two official plugins are available:
+The application also includes a cart functionality where users can add or remove items. A cart icon is displayed in the navigation bar along with a count of how many products have been added. The total price of the items in the cart is calculated dynamically, and a 10% discount is applied to give the final price, making the application more realistic like real-world shopping websites.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The user interface is designed to be responsive, meaning it works well on both desktop and mobile devices. On smaller screens, a burger menu is provided for easy navigation, ensuring a smooth user experience across all devices.
 
-## React Compiler
+This project is built using React JS, React Router for navigation between pages, Tailwind CSS for styling, and JavaScript for handling logic and state management. It helps in understanding core React concepts such as components, props, state, API handling, and routing.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Overall, this project is a good example of a beginner to intermediate level React application that demonstrates how to build a functional and responsive e-commerce website.
